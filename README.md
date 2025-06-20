@@ -45,3 +45,19 @@ The function `calculateBodaFare`:
 2. Converts the input to a number.
 3. Computes the total fare.
 4. Prints the result in a friendly format.
+
+### Challenge 3: Mobile Money Transaction Fee Estimator 📱
+This program calculates transaction fees using a simplified fee structure.
+
+#### Transaction Fee Rules:
+- **Standard Fee**: 1.5% of the transaction amount.
+- **Minimum Fee**: If 1.5% is less than KES 10, charge KES 10.
+- **Maximum Fee**: If 1.5% exceeds KES 70, charge KES 70.
+
+#### Function Implementation:
+The function `estimateTransactionFee`:
+1. Prompts the user for the amount to send.
+2. Converts the input to a number.
+3. Calculates the fee based on rules.
+4. Computes the total debited amount.
+5. Prints results clearly
